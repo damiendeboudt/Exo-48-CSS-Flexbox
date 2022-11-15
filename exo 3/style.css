@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 20vw;
+    height: 20vw;
+    background-color: #90ef1b;
+    margin: 2vw;
+}
