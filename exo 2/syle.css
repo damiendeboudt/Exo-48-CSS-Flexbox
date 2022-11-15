@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80vw;
+}
+.un{
+    width: 24vw;
+    background-color: orange;
+    margin: 2x;
+}
+.deux{
+    width: 24vw;
+    background-color: #e76d6d;
+    margin: 2px;
+}
+.trois{
+    width: 24vw;
+    background-color: #c0c0c0;
+    margin: 2px;
+}
+.quatre{
+    width: 24vw;
+    background-color: #8870ff;
+    margin: 2px;
+}
+.cinq{
+    width: 100vw;
+    background-color: #000444;
+    margin: 2px;
+}
+.six{
+    width: 24vw;
+    background-color: #e7f2fa;
+    margin: 2px;
+}
+.sept{
+    width: 24vw;
+    background-color: rgba(30, 139, 196, 0.17);
+    margin: 2px;
+}
+.huit{
+    width: 24vw;
+    background-color: rgba(53, 188, 122, 0.17);
+    margin: 2px;
+}
+.neuf{
+    width: 24vw;
+    background-color: rgba(224, 120, 143, 0.17);
+    margin: 2px;
+}
+@media screen and (max-width: 1024px) {
+    .un, .deux, .trois, .quatre, .six, .sept, .huit, .neuf{
+        width: 48vw;
+        height: 48vw;
+    }
+    .cinq{
+        width: 100vw;
+        height: 48vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .un, .deux, .trois, .quatre, .cinq, .six, .sept, .huit, .neuf{
+        width: 100vw;
+        height: 100vw;
+}
