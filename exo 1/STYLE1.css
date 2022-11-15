@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100rem;
+}
+.un{
+    background-color: red;
+    width: 12.5%;
+    height: 100%;
+}
+.deux{
+    background-color: yellow;
+    width: 12.5%;
+}
+.trois{
+    background-color: green;
+    width: 12.5%;
+}
+.quatre{
+    background-color: blue;
+    width: 12.5%;
+}
+.cinq{
+    background-color: orange;
+    width: 12.5%;
+}
+.six{
+    background-color: teal;
+    width: 12.5%;
+}
+.sept{
+    background-color: firebrick;
+    width: 12.5%;
+}
+.huit{
+    background-color: magenta;
+    width: 12.5%;
+}

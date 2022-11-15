@@ -1,0 +1,72 @@
+** {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.un{
+    background-color: red;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.deux{
+    background-color: yellow;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.trois{
+    background-color: green;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.quatre{
+    background-color: blue;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.cinq{
+    background-color: orange;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.six{
+    background-color: teal;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.sept{
+    background-color: firebrick;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.huit{
+    background-color: magenta;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.neuf{
+    background-color: #90ef1b;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
+.dix{
+    background-color: #8870ff;
+    width: 22.5vw;
+    height: 50vw;
+    margin: 1vw;
+}
