@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 110vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e76d6d;
+}
+div, .neuf{
+    width: 30vw;
+    height: 25vw;
+    background-color: #90ef1b;
+}
+.neuf{
+    flex-grow: 1;
+}
