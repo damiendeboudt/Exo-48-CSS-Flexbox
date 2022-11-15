@@ -1,4 +1,5 @@
-Jouer des orientations et de l'ordre des éléments. <header> et <footer> ont une hauteur fixe, les éléments contenus dans <main> doivent s'adapter à l'espace vertical libre.
+Jouer des orientations et de l'ordre des éléments. <header> et <footer> ont une hauteur fixe, les éléments contenus 
+dans <main> doivent s'adapter à l'espace vertical libre.
 
 6.1 présenter le menu à l'horizontal en résolution supérieure à 600px. Le menu a une largeur fixe de 200px.
     ( image flexbox_6_1.png )
