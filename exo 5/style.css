@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+nav{
+    width: 100%;
+    margin-top: 2vw;
+}
+li{
+    list-style: none;
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    width: 100%;
+    height: 5vw;
+    background-color: #90ef1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.un{
+    background-color: #1abc9c;
+}
+.deux{
+    background-color: #3498db;
+}
+.trois{
+    background-color: #9b59b6;
+}
+.quatre{
+    background-color: #e67e22;
+}
+.cinq{
+    background-color: #e74c3c;
+}
+.trois:hover{
+    transform: scale(150%);
+}
+
+@media screen and (max-width: 600px) {
+    ul{
+        display: block;
+    }
+    div{
+        width: 20%;
+    }
+    a{
+        font-size: 1.3rem;
+    }
+}
